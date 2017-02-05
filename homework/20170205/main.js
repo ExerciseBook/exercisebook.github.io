@@ -99,7 +99,7 @@ window.onload = function() {
     renderFrame();
 	audio.play();
 	//var song = 0;
-	audio.src = "bgm.mp3"
+	audio.src = "vois sur ton chemin.mp3"
     audio.play();
 	
 	audio.onended = function() {
