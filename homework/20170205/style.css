@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	font-family: "微软雅黑";
+	background: url(bg.jpg) top center/cover no-repeat fixed;
+}
+#canvas {
+	opacity:0.5;
+	position: absolute;
+	bottom :0;
+	left: 0;
+	right: 0;
+}
+.center-text{
+	padding: 10px 20px;
+	width: 600px;
+	height: 400px;
+	position: fixed;
+	overflow-y: auto;
+	top: calc(50% - 200px);
+	left: calc(50% - 300px);
+	background: rgba(255,255,255,0.75);
+}
+.center-text h1{
+	text-align: center;
+	margin: 0 0 .8em;
+}
+.center-text p{
+	text-indent: 2em;
+}
